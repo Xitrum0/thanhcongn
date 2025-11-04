@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đăng nhập / Đăng ký - Bánh Ngọt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <div id="loginTab" class="tab active">Đăng nhập</div>
+      <div id="registerTab" class="tab">Đăng ký</div>
+    </div>
+
+    <div id="loginForm" class="form active">
+      <div id="loginMessage"></div>
+      <input type="text" id="loginUsername" placeholder="Tên đăng nhập hoặc email" required />
+      <input type="password" id="loginPassword" placeholder="Mật khẩu" required />
+      <button id="loginBtn">Đăng nhập</button>
+    </div>
+
+    <div id="registerForm" class="form">
+      <div id="registerMessage"></div>
+      <input type="text" id="registerUsername" placeholder="Tên đăng nhập" required />
+      <input type="email" id="registerEmail" placeholder="Email" required />
+      <input type="password" id="registerPassword" placeholder="Mật khẩu" required />
+      <input type="password" id="registerConfirm" placeholder="Nhập lại mật khẩu" required />
+      <button id="registerBtn">Đăng ký</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
